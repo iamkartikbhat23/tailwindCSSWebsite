@@ -1,4 +1,5 @@
 # Blogs page
+<md-block>
   <html class="dark">
 
   <head>
@@ -14,7 +15,7 @@
   </head>
 
   <body class="font-domine">
-
+</md-block>
       <header class=" sticky top-0 z-20
                 bg-purple-100 text-purple-800  
                   w-full h-12 md:h-auto 
