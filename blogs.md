@@ -1,5 +1,4 @@
 # Blogs page
-<md-block>
   <html class="dark">
 
   <head>
@@ -15,7 +14,7 @@
   </head>
 
   <body class="font-domine">
-</md-block>
+
       <header class=" sticky top-0 z-20
                 bg-purple-100 text-purple-800  
                   w-full h-12 md:h-auto 
@@ -344,35 +343,38 @@
           </div>
       </footer>
       <script>
-          let lightIcon = document.getElementById('light')
-          let darkIcon = document.getElementById('dark')
-          changeTheme(localStorage.theme)
-          function changeTheme(theme) {
-              if (theme === 'light') {
-                  document.documentElement.classList.remove('dark')
-                  lightIcon.classList.add("hidden");
-                  darkIcon.classList.remove("hidden");
-              } else if (theme === 'dark') {
-                  document.documentElement.classList.add('dark')
-                  lightIcon.classList.remove("hidden");
-                  darkIcon.classList.add("hidden");
-              }
-              localStorage.setItem('theme', theme)
-          }
+        <md-block>
+        ```javascript
+            let lightIcon = document.getElementById('light')
+            let darkIcon = document.getElementById('dark')
+            changeTheme(localStorage.theme)
+            function changeTheme(theme) {
+                if (theme === 'light') {
+                    document.documentElement.classList.remove('dark')
+                    lightIcon.classList.add("hidden");
+                    darkIcon.classList.remove("hidden");
+                } else if (theme === 'dark') {
+                    document.documentElement.classList.add('dark')
+                    lightIcon.classList.remove("hidden");
+                    darkIcon.classList.add("hidden");
+                }
+                localStorage.setItem('theme', theme)
+            }
 
-          function toggleMenu(status) {
-              let drawer = document.getElementById('drawer')
-              if (status == 'open') {
-                  drawer.classList.remove("-translate-x-[100%]");
-                  drawer.classList.add("translate-x-0");
-              } else {
-                  drawer.classList.remove("translate-x-0");
-                  drawer.classList.add("-translate-x-[100%]");
-              }
-          }
+            function toggleMenu(status) {
+                let drawer = document.getElementById('drawer')
+                if (status == 'open') {
+                    drawer.classList.remove("-translate-x-[100%]");
+                    drawer.classList.add("translate-x-0");
+                } else {
+                    drawer.classList.remove("translate-x-0");
+                    drawer.classList.add("-translate-x-[100%]");
+                }
+            }
 
-
-      </script>
+        ```
+        </md-block>
+    </script>
   </body>
 
   </html>
