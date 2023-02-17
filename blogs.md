@@ -343,8 +343,6 @@
           </div>
       </footer>
       <script>
-        <md-block>
-        ```javascript
             let lightIcon = document.getElementById('light')
             let darkIcon = document.getElementById('dark')
             changeTheme(localStorage.theme)
@@ -371,9 +369,6 @@
                     drawer.classList.add("-translate-x-[100%]");
                 }
             }
-
-        ```
-        </md-block>
     </script>
   </body>
 
