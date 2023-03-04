@@ -18,7 +18,7 @@
 
     <body class="font-domine">
         
-        <header class=" ** sticky top-0 z-20
+        <header class=" **sticky top-0 z-20
                 bg-purple-100 text-purple-800  
                     w-full h-12 md:h-auto 
                 dark:text-purple-100 dark:bg-slate-800 shadow-md dark:shadow-zinc-700** ">
