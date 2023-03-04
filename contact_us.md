@@ -18,10 +18,10 @@
 
     <body class="font-domine">
         
-        <header class=" sticky top-0 z-20
+        <header class=" ** sticky top-0 z-20
                 bg-purple-100 text-purple-800  
                     w-full h-12 md:h-auto 
-                dark:text-purple-100 dark:bg-slate-800 shadow-md dark:shadow-zinc-700">
+                dark:text-purple-100 dark:bg-slate-800 shadow-md dark:shadow-zinc-700** ">
             <div class="    flex flex-row justify-between md:items-end
                             px-5 md:px-10 py-2">
                 <div class="md:hidden" onclick="toggleMenu('open')">
