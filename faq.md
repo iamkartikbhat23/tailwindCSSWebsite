@@ -131,11 +131,11 @@
                     <div class="text-center text-sm md:text-left py-2 dark:text-gray-50">Most asked questions that you can get some more information about us</div>
                     <div class="space-y-3">
                         <div class="w-full px-2">
-                            <details class="open:bg-white dark:open:bg-gray-900 ring-1 ring-gray-600 dark:ring-gray-100 dark:open:ring-gray-200 open:shadow-lg p-6 rounded-lg">
+                            <details class="open:bg-white dark:open:bg-gray-900 ring-1 ring-gray-600 dark:ring-gray-100 dark:open:ring-gray-200 open:shadow-lg p-6 rounded-lg" open>
                             <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
                                 Popular reciepes of the restaurant?
                             </summary>
-                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400 select-none">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             </div>
                             </details>
@@ -145,7 +145,7 @@
                             <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
                                 What is Vegan food ?
                             </summary>
-                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400 select-none">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             </div>
                             </details>
@@ -155,7 +155,7 @@
                             <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
                                 Which are the allowed preservatives ?
                             </summary>
-                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400 select-none">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             </div>
                             </details>
@@ -165,7 +165,7 @@
                             <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
                                 Which is the healthiest north indian food?
                             </summary>
-                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400 select-none">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             </div>
                             </details>
@@ -175,7 +175,7 @@
                             <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
                                 Best winter foods
                             </summary>
-                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400 select-none">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             </div>
                             </details>
@@ -185,7 +185,7 @@
                             <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
                                 Best Summer foods
                             </summary>
-                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400 select-none">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             </div>
                             </details>
@@ -195,7 +195,7 @@
                             <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
                                 Health behinds vegetables soups
                             </summary>
-                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400 select-none">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             </div>
                             </details>
@@ -205,7 +205,7 @@
                             <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
                                 vegans and vegetarians 
                             </summary>
-                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                            <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400 select-none">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             </div>
                             </details>
