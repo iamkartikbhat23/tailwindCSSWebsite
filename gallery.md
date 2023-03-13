@@ -7,7 +7,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/dist/output.css" rel="stylesheet">
+        <link href="dist/output.css" rel="stylesheet">
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +38,7 @@
                                     animate-rotating duration-500 ease-out 
                                     hover:animate-none cursor-pointer">
                         </div>
-                        <img    src="/src/images/logo.png" 
+                        <img    src="src/images/logo.png" 
                                 class="h-16 w-16 md:h-24 md:w-24 z-20 cursor-pointer" />
                     </a>
                 </div>
@@ -95,7 +95,7 @@
                                                 animate-rotating duration-500 ease-out 
                                                 hover:animate-none cursor-pointer">
                                     </div>
-                                    <img  src="/src/images/logo.png" 
+                                    <img  src="src/images/logo.png" 
                                         class="h-16 w-16 md:h-24 md:w-24 z-20 " />
                                 </a>
                             </div>
@@ -128,58 +128,58 @@
                             gap-3 place-content-stretch">
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image1.jpg" 
+                        src=" src/gallery/image1.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image2.jpg" 
+                        src=" src/gallery/image2.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image3.jpg" 
+                        src=" src/gallery/image3.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image4.jpg" 
+                        src=" src/gallery/image4.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image5.jpg" 
+                        src=" src/gallery/image5.jpg" 
                         alt="image"/>
                     <div class="w-full p-10 order-first col-span-2
                                 md:order-none md:row-span-2 ">
                         <img class=" p-10 md:m-auto shadow-2xl shadow-emerald-600 
                                     rounded-full md:rounded" 
-                            src="/src/images/logo.png"
+                            src="src/images/logo.png"
                             alt="image"/>
                     </div>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image6.jpg" 
+                        src=" src/gallery/image6.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover rounded
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image7.jpg" 
+                        src=" src/gallery/image7.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image8.jpg" 
+                        src=" src/gallery/image8.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image9.jpg" 
+                        src=" src/gallery/image9.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image10.jpg" 
+                        src=" src/gallery/image10.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover rounded 
                                 dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image11.jpg" 
+                        src=" src/gallery/image11.jpg" 
                         alt="image"/>
                     <img class=" inset-0 h-full w-full object-cover 
                                 rounded dark:border dark:border-gray-500" 
-                        src=" /src/gallery/image12.jpg" 
+                        src=" src/gallery/image12.jpg" 
                         alt="image"/>
                 </div>
             </div>
@@ -191,40 +191,40 @@
                 </div>
                 <div class="md:h-[18rem] grid grid-cols-2 gap-2  md:flex md:justify-between md:items-center space-x-1 md:animate-marquee ">
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/1.jpg" 
+                        src=" src/kitchen/1.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/2.jpg" 
+                        src=" src/kitchen/2.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/3.jpg" 
+                        src=" src/kitchen/3.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/4.jpg" 
+                        src=" src/kitchen/4.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/5.jpg" 
+                        src=" src/kitchen/5.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/6.jpg" 
+                        src=" src/kitchen/6.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/7.jpg" 
+                        src=" src/kitchen/7.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/8.jpg" 
+                        src=" src/kitchen/8.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/9.jpg" 
+                        src=" src/kitchen/9.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/10.jpg" 
+                        src=" src/kitchen/10.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/11.jpg" 
+                        src=" src/kitchen/11.jpg" 
                         alt="image"/>
                     <img class="inset-0 h-full w-full object-cover " 
-                        src=" /src/kitchen/12.jpg" 
+                        src=" src/kitchen/12.jpg" 
                         alt="image"/>
                 </div>
             </div>
@@ -232,85 +232,85 @@
                 <div class=" px-4 py-8 w-full dark:text-zinc-300
                             text-left text-gray-700 text-xl md:text-4xl">Our food gallery...</div>
                 <div class="columns-2 md:columns-5 space-y-3">
-                    <img src="/src/food/1.jpg" 
+                    <img src="src/food/1.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/2.jpg" 
+                    <img src="src/food/2.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/3.jpg" 
+                    <img src="src/food/3.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/4.jpg" 
+                    <img src="src/food/4.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/5.jpg" 
+                    <img src="src/food/5.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/6.jpg" 
+                    <img src="src/food/6.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/7.jpg" 
+                    <img src="src/food/7.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/8.jpg" 
+                    <img src="src/food/8.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/9.jpg" 
+                    <img src="src/food/9.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/10.jpg" 
+                    <img src="src/food/10.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/11.jpg" 
+                    <img src="src/food/11.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/12.jpg" 
+                    <img src="src/food/12.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/13.jpg" 
+                    <img src="src/food/13.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/14.jpg" 
+                    <img src="src/food/14.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/15.jpg" 
+                    <img src="src/food/15.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/16.jpg" 
+                    <img src="src/food/16.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/17.jpg" 
+                    <img src="src/food/17.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/18.jpg" 
+                    <img src="src/food/18.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/19.jpg" 
+                    <img src="src/food/19.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/20.jpg" 
+                    <img src="src/food/20.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/21.jpg" 
+                    <img src="src/food/21.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/22.jpg" 
+                    <img src="src/food/22.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/23.jpg" 
+                    <img src="src/food/23.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/24.jpg" 
+                    <img src="src/food/24.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/25.jpg" 
+                    <img src="src/food/25.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/26.jpg" 
+                    <img src="src/food/26.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/27.jpg"
+                    <img src="src/food/27.jpg"
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/28.jpg" 
+                    <img src="src/food/28.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/29.jpg" 
+                    <img src="src/food/29.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/30.jpg" 
+                    <img src="src/food/30.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/31.jpg" 
+                    <img src="src/food/31.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/32.jpg" 
+                    <img src="src/food/32.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/33.jpg" 
+                    <img src="src/food/33.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/34.jpg" 
+                    <img src="src/food/34.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/35.jpg" 
+                    <img src="src/food/35.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/36.jpg" 
+                    <img src="src/food/36.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/37.jpg" 
+                    <img src="src/food/37.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/38.jpg" 
+                    <img src="src/food/38.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/39.jpg" 
+                    <img src="src/food/39.jpg" 
                         class="rounded dark:border dark:border-amber-200">
-                    <img src="/src/food/40.jpg" 
+                    <img src="src/food/40.jpg" 
                         class="rounded dark:border dark:border-amber-200">
                 </div>
             </div>
@@ -319,7 +319,7 @@
                         flex justify-center bg-purple-100 
                     dark:bg-slate-800  dark:text-zinc-200">
             <div class="flex flex-col justify-center items-center">
-                <img src="/src/images/logo.png" class="h-12 w-12" />
+                <img src="src/images/logo.png" class="h-12 w-12" />
                 <div>Copyrights 2023</div>
                 <small>Contact +91 4458156974126</small>
             </div>

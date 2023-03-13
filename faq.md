@@ -7,7 +7,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/dist/output.css" rel="stylesheet">
+        <link href="dist/output.css" rel="stylesheet">
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
                                     animate-rotating duration-500 ease-out 
                                     hover:animate-none cursor-pointer">
                         </div>
-                        <img src="/src/images/logo.png" class="h-16 w-16 md:h-24 md:w-24 z-20 cursor-pointer" />
+                        <img src="src/images/logo.png" class="h-16 w-16 md:h-24 md:w-24 z-20 cursor-pointer" />
                     </a>
                 </div>
                 <div class="flex items-start md:items-center">
@@ -91,7 +91,7 @@
                                                 animate-rotating duration-500 ease-out 
                                                 hover:animate-none cursor-pointer">
                                     </div>
-                                    <img src="/src/images/logo.png" class="h-16 w-16 md:h-24 md:w-24 z-20 " />
+                                    <img src="src/images/logo.png" class="h-16 w-16 md:h-24 md:w-24 z-20 " />
                                 </a>
                             </div>
                             <div class="md:hidden" onclick="toggleMenu('close')">
@@ -219,7 +219,7 @@
                         flex justify-center bg-purple-100 
                     dark:bg-slate-800  dark:text-zinc-200">
             <div class="flex flex-col justify-center items-center">
-                <img src="/src/images/logo.png" class="h-12 w-12" />
+                <img src="src/images/logo.png" class="h-12 w-12" />
                 <div>Copyrights 2023</div>
                 <small>Contact +91 4458156974126</small>
             </div>
@@ -263,4 +263,3 @@
     </body>
 
     </html>
-

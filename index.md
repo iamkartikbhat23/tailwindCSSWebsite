@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/dist/output.css" rel="stylesheet">
+        <link href="dist/output.css" rel="stylesheet">
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,8 +18,7 @@
 
     <body class="font-domine">
 
-        <header
-            class=" sticky top-0 z-20
+        <header class=" sticky top-0 z-20
                 bg-purple-100 text-purple-800  
                     w-full h-12 md:h-auto 
                 dark:text-purple-100 dark:bg-slate-800 shadow-md dark:shadow-zinc-700">
@@ -30,20 +29,17 @@
                 </div>
                 <div class="relative">
                     <a href="index.html">
-                        <div
-                            class=" absolute top-0 z-10
+                        <div class=" absolute top-0 z-10
                                     h-16 w-16 md:h-24 md:w-24 rounded-full
                                     outline-4 outline-dotted outline-purple-700 dark:outline-purple-300
                                     animate-rotating duration-500 ease-out 
                                     hover:animate-none cursor-pointer">
                         </div>
-                        <img  src="/src/images/logo.png" 
-                            class="h-16 w-16 md:h-24 md:w-24 z-20 " />
+                        <img src="src/images/logo.png" class="h-16 w-16 md:h-24 md:w-24 z-20 " />
                     </a>
                 </div>
                 <div class="flex items-start md:items-center">
-                    <div
-                        class=" hidden md:grid grid-cols-6 gap-x-10 
+                    <div class=" hidden md:grid grid-cols-6 gap-x-10 
                                 grow items-stretch place-content-center justify-items-center
                                 px-5 max-w-7xl">
                         <a href="index.html">
@@ -51,30 +47,35 @@
                                 Home
                             </div>
                         </a>
-                        <a href="menu.html"><div class="menu-item">Menu</div></a>
-                        <a href="gallery.html"><div class="menu-item">Gallery</div></a>
-                        <a href="blogs.html"><div class="menu-item">Blogs</div></a>
-                        <a href="contact_us.html"><div class="menu-item">Contact us</div></a>
-                        <a href="faq.html"><div class="menu-item">FAQ</div></a>
+                        <a href="menu.html">
+                            <div class="menu-item">Menu</div>
+                        </a>
+                        <a href="gallery.html">
+                            <div class="menu-item">Gallery</div>
+                        </a>
+                        <a href="blogs.html">
+                            <div class="menu-item">Blogs</div>
+                        </a>
+                        <a href="contact_us.html">
+                            <div class="menu-item">Contact us</div>
+                        </a>
+                        <a href="faq.html">
+                            <div class="menu-item">FAQ</div>
+                        </a>
                     </div>
                     <div class="w-5 h-5">
-                        <div id="light" 
-                            class="hidden cursor-pointer place-self-center" 
-                            onclick="changeTheme('light')"
+                        <div id="light" class="hidden cursor-pointer place-self-center" onclick="changeTheme('light')"
                             title="Normal mode">
                             <ion-icon name="sunny-outline"></ion-icon>
                         </div>
-                        <div id="dark" 
-                            class="cursor-pointer place-self-center" 
-                            onclick="changeTheme('dark')"
+                        <div id="dark" class="cursor-pointer place-self-center" onclick="changeTheme('dark')"
                             title="Dark mode">
                             <ion-icon name="moon"></ion-icon>
                         </div>
                     </div>
                 </div>
             </div>
-            <aside id="drawer"
-                class="  absolute top-0 z-50 bg-purple-100 text-purple-800 md:hidden
+            <aside id="drawer" class="  absolute top-0 z-50 bg-purple-100 text-purple-800 md:hidden
                         min-h-screen min-w-full overflow-y-hidden
                     dark:text-purple-100 dark:bg-slate-800 
                         -translate-x-[100%] duration-200 ease-in-out">
@@ -82,13 +83,12 @@
                     <div class="w-full flex justify-end">
                         <div class="w-4/6 flex justify-between">
                             <div class="relative">
-                                <div
-                                    class=" absolute top-0 h-16 w-16 md:h-24 md:w-24 rounded-full 
+                                <div class=" absolute top-0 h-16 w-16 md:h-24 md:w-24 rounded-full 
                                             outline-4 outline-dotted outline-purple-700 dark:outline-purple-300
                                             animate-rotating duration-500 ease-out">
                                 </div>
                                 <a href="index.html">
-                                    <img src="/src/images/logo.png" class="h-16 w-16 md:h-24 md:w-24 z-20" />
+                                    <img src="src/images/logo.png" class="h-16 w-16 md:h-24 md:w-24 z-20" />
                                 </a>
                             </div>
                             <div class="md:hidden" onclick="toggleMenu('close')">
@@ -97,12 +97,24 @@
                         </div>
                     </div>
                     <ul class="flex flex-col divide-y divide-purple-200 font-jost gap-y-4 m-10 ">
-                        <a href="index.html"><li class="text-base font-bold py-3">Home</li></a>
-                        <a href="menu.html"><li class="text-base py-3">Menu</li></a>
-                        <a href="gallery.html"><li class="text-base py-3">Gallery</li></a>
-                        <a href="blogs.html"><li class="text-base py-3">Blogs</li></a>
-                        <a href="contact_us.html"><li class="text-base py-3">Contact us</li></a>
-                        <a href="faq.html"><li class="text-base py-3">FAQ</li></a>
+                        <a href="index.html">
+                            <li class="text-base font-bold py-3">Home</li>
+                        </a>
+                        <a href="menu.html">
+                            <li class="text-base py-3">Menu</li>
+                        </a>
+                        <a href="gallery.html">
+                            <li class="text-base py-3">Gallery</li>
+                        </a>
+                        <a href="blogs.html">
+                            <li class="text-base py-3">Blogs</li>
+                        </a>
+                        <a href="contact_us.html">
+                            <li class="text-base py-3">Contact us</li>
+                        </a>
+                        <a href="faq.html">
+                            <li class="text-base py-3">FAQ</li>
+                        </a>
                     </ul>
                 </div>
             </aside>
@@ -110,7 +122,7 @@
 
         <main>
             <div class="relative p-3 md:p-10 min-h-screen max-w-screen 
-                        bg-[url('/src/images/bg1.jpg')]  
+                        bg-[url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]  
                         dark:contrast-125">
                 <div class="    grid grid-cols-1 md:grid-cols-2 grid-rows-2 
                                 items-stretch place-content-center min-h-screen 
@@ -119,43 +131,39 @@
                             dark:border-stone-300">
                         <div class="h-full py-10 flex flex-col justify-center items-center">
                             South Indian
-                            <img src="/src/images/sf.png" 
-                                class="h-44 w-44 md:h-80 md:w-80" />
+                            <img src="src/images/sf.png" class="h-44 w-44 md:h-80 md:w-80" />
                         </div>
                     </div>
                     <div class="  border md:border-t-4 md:border-x-4 border-amber-500 md:rounded-tr-xl 
                                 dark:border-stone-300">
                         <div class="h-full py-10 flex flex-col justify-center items-center">
                             North Indian
-                            <img src="/src/images/nf.png" class="h-44 w-44 md:h-80 md:w-80" />
+                            <img src="src/images/nf.png" class="h-44 w-44 md:h-80 md:w-80" />
                         </div>
                     </div>
                     <div class=" border md:border-b-4 md:border-x-4 border-blue-600 md:rounded-bl-xl
                             dark:border-stone-300">
                         <div class="h-full py-10 flex flex-col justify-center items-center">
                             Vegan
-                            <img src="/src/images/vf.png" class="h-44 w-44 md:h-80 md:w-80" />
+                            <img src="src/images/vf.png" class="h-44 w-44 md:h-80 md:w-80" />
                         </div>
                     </div>
-                    <div
-                        class=" border md:border-r-4 md:border-y-4 border-orange-600 md:rounded-br-xl 
+                    <div class=" border md:border-r-4 md:border-y-4 border-orange-600 md:rounded-br-xl 
                             dark:border-stone-300">
                         <div class="h-full py-10 flex flex-col justify-center items-center">
                             Drinks and Juices
-                            <img src="/src/images/juices.png" class="h-44 w-44 md:h-80 md:w-80" />
+                            <img src="src/images/juices.png" class="h-44 w-44 md:h-80 md:w-80" />
                         </div>
                     </div>
                 </div>
                 <div class=" hidden absolute top-0 h-full w-[95%] z-10
                             md:flex items-center justify-center">
-                    <img src="/src/images/logo.png"
-                        class=" h-44 w-44 drop-shadow-2xl cursor-pointer 
+                    <img src="src/images/logo.png" class=" h-44 w-44 drop-shadow-2xl cursor-pointer 
                                 border-2 border-dashed border-zinc-200 rounded-full 
                                 hover:animate-waving duration-900 ease-in-out" />
                 </div>
             </div>
-            <div
-                class=" h-full w-full md:h-[20rem] p-10 font-jost 
+            <div class=" h-full w-full md:h-[20rem] p-10 font-jost 
                     bg-lime-200  flex justify-center 
                     dark:bg-slate-800/90 text-gray-800 dark:text-white">
                 <div class="w-full flex flex-col md:flex-row justify-around text-2xl">
@@ -265,8 +273,7 @@
             <div class="  container min-w-full p-10 
                         bg-rose-200 dark:bg-gray-800">
                 <div class="flex flex-col md:flex-row justify-around gap-y-6">
-                    <div
-                        class=" w-full md:w-44 lg:w-56 xl:w-72 2xl:w-80 flex flex-col p-5 
+                    <div class=" w-full md:w-44 lg:w-56 xl:w-72 2xl:w-80 flex flex-col p-5 
                                 text-center text-gray-700 dark:text-gray-200 
                                 border border-rose-500 rounded-md shadow-xl shadow-rose-400
                             dark:border-gray-100  dark:shadow-gray-100 dark:hover:border-gray-50
@@ -274,8 +281,7 @@
                         <div class="text-2xl">400+</div>
                         <div class="text-base">Tables</div>
                     </div>
-                    <div
-                        class=" w-full md:w-44 lg:w-56 xl:w-72 2xl:w-80 flex flex-col p-5 
+                    <div class=" w-full md:w-44 lg:w-56 xl:w-72 2xl:w-80 flex flex-col p-5 
                                 text-center text-gray-700 dark:text-gray-200 
                                 border border-rose-500 rounded-md shadow-xl shadow-rose-400
                             dark:border-gray-100  dark:shadow-gray-100 dark:hover:border-gray-50
@@ -283,8 +289,7 @@
                         <div class="text-2xl">500+</div>
                         <div class="text-base">Dishes</div>
                     </div>
-                    <div
-                        class=" w-full md:w-44 lg:w-56 xl:w-72 2xl:w-80 flex flex-col p-5 
+                    <div class=" w-full md:w-44 lg:w-56 xl:w-72 2xl:w-80 flex flex-col p-5 
                                 text-center text-gray-700 dark:text-gray-200 
                                 border border-rose-500 rounded-md shadow-xl shadow-rose-400
                             dark:border-gray-100  dark:shadow-gray-100 dark:hover:border-gray-50
@@ -292,8 +297,7 @@
                         <div class="text-2xl">10-15 Mins</div>
                         <div class="text-base">Prep. Time</div>
                     </div>
-                    <div
-                        class=" w-full md:w-44 lg:w-56 xl:w-72 2xl:w-80 flex flex-col p-5 
+                    <div class=" w-full md:w-44 lg:w-56 xl:w-72 2xl:w-80 flex flex-col p-5 
                                 text-center text-gray-700 dark:text-gray-200 
                                 border border-rose-500 rounded-md shadow-xl shadow-rose-400
                             dark:border-gray-100  dark:shadow-gray-100 dark:hover:border-gray-50
@@ -308,7 +312,7 @@
                         flex justify-center bg-purple-100 
                     dark:bg-slate-800  dark:text-zinc-200">
             <div class="flex flex-col justify-center items-center">
-                <img src="/src/images/logo.png" class="h-12 w-12" />
+                <img src="src/images/logo.png" class="h-12 w-12" />
                 <div>Copyrights 2023</div>
                 <small>Contact +91 4458156974126</small>
             </div>
